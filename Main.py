@@ -6,7 +6,6 @@ from PIL import Image
 import time
 import os
 
-# Initialize MediaPipe Hands
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
 
