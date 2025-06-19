@@ -100,7 +100,7 @@ if run:
             if gesture_detected:
                 # Save screenshot
                 timestamp = time.strftime("%Y%m%d-%H%M%S")
-                directory = r"C:\Users\yashswi shukla\Desktop\Project\Suraksha_Dristi\img"
+                directory = r"img/"
                 screenshot_path = os.path.join(directory, f"screenshot_{timestamp}.png")
 
                 # Make sure directory exists
